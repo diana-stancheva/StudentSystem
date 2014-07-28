@@ -1,0 +1,14 @@
+<div id="students-template">
+    <h2>Students</h2>
+    <div class="headline">
+        <div class="name">Name</div>
+        <div class="grade">Grade</div>
+    </div>
+    {{#students}}
+    <div class="student">
+        <div class="name">{{name}}</div>
+        <div class="grade">{{grade}}</div>
+        <div class="id" data-id="{{id}}">{{id}}<button data-id="{{id}}" class="remove-student">Delete</button></div>
+    </div>
+    {{/students}}
+<div>

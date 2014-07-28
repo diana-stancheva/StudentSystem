@@ -1,0 +1,59 @@
+body {
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#students-template,
+#controls {
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#students-template .headline {
+	background: #003333;
+	color: #fff;
+}
+
+#students-template .student {
+	background: #669999;
+}
+
+#students-template .student:nth-of-type(odd) {
+	background: #407f7f;
+}
+
+#students-template .student:hover {
+	background: #003333;
+	color: #fff;
+}
+
+#students-template .student .name,
+#students-template .student .grade,
+#students-template .headline .name,
+#students-template .headline .grade {
+	display: inline-block;
+	width: 300px;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px;
+}
+
+#students-template .student .id {
+	display: inline-block;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px;
+}
+
+#students-template .student .id .remove-student {
+	display: inline-block;
+	margin: 5px;
+	padding: 3px 5px;
+
+}
+
+#controls form input[type=submit] {
+	font-weight: bold;
+}

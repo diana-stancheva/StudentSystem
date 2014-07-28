@@ -1,0 +1,8 @@
+--require expect.js
+--require should
+--require requirejs
+--require mocha
+--reporter spec
+--ui tdd
+--recursive
+--growl
